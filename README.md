@@ -18,7 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
+```
+str1=(input())
+str2=(input())
+temp=str1
+str1=str2
+str2=temp
+print("Swapped values are:",str1,str2)
+```
+## OUTPUT:
+![Swapping](https://user-images.githubusercontent.com/121117266/209358529-d60a21da-eed6-4cc9-90f7-27a19f04901e.png)
 
 
 ## RESULT:
