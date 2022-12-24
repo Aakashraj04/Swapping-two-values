@@ -19,12 +19,15 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```
-str1=(input())
-str2=(input())
-temp=str1
-str1=str2
-str2=temp
-print("Swapped values are:",str1,str2)
+#Program to circulate N values.
+#Developed by: Aakashraj M
+#RegisterNumber:22008579
+
+def circulate():
+     l=eval(input())
+     n=int(input())
+     l=l[n:]+l[:n]
+     print("After circulating the values are:",l)
 ```
 ## OUTPUT:
 ![Swapping](https://user-images.githubusercontent.com/121117266/209358529-d60a21da-eed6-4cc9-90f7-27a19f04901e.png)
