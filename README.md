@@ -23,8 +23,8 @@ End the program
 #Developed by: Aakashraj M
 #RegisterNumber:22008579
 
-n1=int(input())
-n2=int(input())
+n1=input()
+n2=input()
 e=n1
 n1=n2
 n2=e
