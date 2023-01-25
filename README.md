@@ -23,11 +23,12 @@ End the program
 #Developed by: Aakashraj M
 #RegisterNumber:22008579
 
-def circulate():
-     l=eval(input())
-     n=int(input())
-     l=l[n:]+l[:n]
-     print("After circulating the values are:",l)
+n1=int(input())
+n2=int(input())
+e=n1
+n1=n2
+n2=e
+print("Swapped value are:",n1,n2)
 ```
 ## OUTPUT:
 ![Swapping](https://user-images.githubusercontent.com/121117266/209358529-d60a21da-eed6-4cc9-90f7-27a19f04901e.png)
